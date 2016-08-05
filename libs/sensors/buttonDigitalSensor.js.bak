@@ -1,0 +1,20 @@
+// Thanks to Craig Watkins for the contribution
+var DigitalSensor = require('./base/digitalSensor')
+var commands      = require('../commands')
+
+function ButtonDigitalSensor(pin) {
+  DigitalSensor.apply(this, Array.prototype.slice.call(arguments))
+}
+ButtonDigitalSensor.prototype = new DigitalSensor()
+
+ButtonDigitalSensor.prototype.read = function() {
+    return DigitalSensor.prototype.read.call(this)
+}
+
+ButtonDigitalSensor.prototype.stream = function(number, callback) {
+    //return DigitalSensor.prototype.read.call(this)
+}
+
+
+
+module.exports = ButtonDigitalSensor

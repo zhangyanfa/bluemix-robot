@@ -1,0 +1,16 @@
+{
+ "classifiers": [
+    {
+      "classifier_id": "BudweiserBeer_1676375957",
+      "name": "BudweiserBeer"
+    },
+    {
+      "classifier_id": "HarbinBeer_675143170",
+      "name": "HarbinBeer"
+    },
+    {
+      "classifier_id": "Beer",
+      "name": "Beer"
+    }
+  ]
+}

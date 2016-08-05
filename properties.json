@@ -1,0 +1,28 @@
+{
+	"iot":{
+		"org":"fo61e5",
+		"device_type":"Rapiro",
+		"device_id":"rapiro1",
+		"token":"bluemix123",
+		"mqtt_url":"mqtt://fo61e5.messaging.internetofthings.ibmcloud.com:1883"
+	},
+
+	"baidu":{
+		"appid":"20160603000022650",
+		"secret":"CGaYSrUX8xlIso0zBDaf"
+	},
+
+	"visual_recognition":{
+		"apikey":"ae3d5638109d9ec91f9a06f28c78b9e21a2b439a"
+	},
+
+	"stt":{
+		"username":"21740d35-2638-4686-8dc5-7f61ef0327d8",
+		"password":"sRtsm2L1NdH4"
+	},
+
+	"microsoft":{
+		"client_id":"b13b8064-c6c5-402c-a042-19853c543415",
+		"client_secret":"pcZc9tKjoIsSsGdgobCkK48k7VXLErvKxNMBLA3RIwM"
+	}
+}
